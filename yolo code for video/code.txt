@@ -1,0 +1,11 @@
+
+Add your trained weights yolov7 object detection weights (Best.pt) and add detect_and_blur.py file 
+
+Run the code with mentioned command below.
+#if you want to change source file
+!python /content/yolov7-object-blurring/detect_and_blur.py --weights /content/best.pt --source "/content/left20024_07_07_22_12_00_Uhr_wbmode1.mp4" --conf 0.3
+
+Output file will be created in the working-dir/runs/detect/ with original filename
+
+
+
